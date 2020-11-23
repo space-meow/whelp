@@ -11,7 +11,6 @@ key_mv = {"KEY_LEFT": [0, -1],
           " ": [0, 0]}
 
 
-
 def main(scr, *args):
     curses.noecho(); curses.cbreak(); curses.curs_set(0)
 
