@@ -1,0 +1,32 @@
+{
+    "screen_sequence": [
+        "START_SCREEN",
+        "MAIN_MAP"
+    ],
+    "characters": {
+        "NPC": {
+            "1": {
+                "name": "thormi",
+                "mvnt_pattern": "SQUARE",
+                "dialog": "testing"
+            },
+            "2": {
+                "name": "lokimaio",
+                "mvnt_pattern": "BACK_&_FORTH",
+                "dialog": "testing too"
+            }
+        },
+        "enemy": {
+            "a": {
+                "name": "bob",
+                "mvnt_pattern": "RANDOM",
+                "dialog": "blah"
+            },
+            "b": {
+                "name": "jorje",
+                "mvnt_pattern": "RANDOM",
+                "dialog": "BLAH"
+            }
+        }
+    }
+}
